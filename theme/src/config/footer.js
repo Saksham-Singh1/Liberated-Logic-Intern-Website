@@ -23,7 +23,7 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Company',
+		title: 'Liberated Logic',
 		items: [
 			{
 				title: 'About',
