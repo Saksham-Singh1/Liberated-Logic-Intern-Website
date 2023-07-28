@@ -13,18 +13,17 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 					A modern messaging app <a
 						href="https://astro.build"
 						target="_blank"
-						rel="noreferrer">Astro</a
+						rel="noreferrer"></a
 					> built to intelligently connect the globe.
 				</p>
 				<div class="hero-btns__container">
-					<Button href="/theme/get-started" customIcon
-						>Download
+					<Button target= "_blank" href="https://chat-app-ten-ochre.vercel.app/" customIcon
+						>Get Started
             <Fragment slot="icon">
               <Icon name="ic:baseline-chevron-right"/>
             </Fragment>
             </Button
 					>
-					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
 				</div>
         {settings.enableThemeSwitcher && <ThemeSwitcher client:load/>}
 		</div>
